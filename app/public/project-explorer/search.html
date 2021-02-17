@@ -14,14 +14,13 @@
    
 </nav>
 <main>
+    
+        
+        
     <section>
-        <form>
         <h3>Search Project By</h3>
+        <form name="searchForm">
         <input type="text" name="SearchTerm" placeholder="Project Name, Authors, Abstract, Tags"/></br>
-        </form>
-    </section>
-    <section>
-        <form>
         <label>>Search By:</label> 
             <select name="dropdown" name="searchType">
             <option value="Name" type="text" selected>Name</option>
@@ -30,12 +29,15 @@
             <option value="Tags" type="text" >Tags</option>
            </select></br></br>
        <input type="submit" value="Search"/>
-    </form>
+       </form>
     </section>
+    
+    
     <section>
         <h2>Search Results</h2>
-        <h3>Project 1</h3>
-        <div><ul>
+        <div>
+            <h3>Project 1</h3>
+       <ul>
             <li>Name:Project 1</li>
             <li>Description:Bal bla bla</li>
             <li>Program:Computer Science</li>
